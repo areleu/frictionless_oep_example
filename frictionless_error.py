@@ -1,8 +1,6 @@
-from pydoc import describe
 import frictionless as fl
 from pprint import pprint
 import json
-from urllib.request import urlopen
 
 def replace_primarykey(resource):
     resource["schema"]["primaryKey"] = "id"
